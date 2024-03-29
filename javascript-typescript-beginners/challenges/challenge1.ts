@@ -1,4 +1,4 @@
-let score:number = 1;
+let score = 50;
 
 if (score >= 90) {
     console.log("Congratulations! You got an A!")
