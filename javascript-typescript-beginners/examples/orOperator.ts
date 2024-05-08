@@ -20,10 +20,10 @@ const niceDay = isSunny && isWarm;
 console.log(niceDay);  //true
 
 // AND ---- complex:
-let score = 85;
+let scores = 85;
 const hasPassed = score >= 60;
 const hasBonus = score >= 80;
-const hasExtraBonus = (score >= 90 && hasBonus) || score === 100;
+const hasExtraBonus = (scores >= 90 && hasBonus) || score === 100;
 console.log(hasExtraBonus); //false
 
 //Let’s say we have something that may be null:
